@@ -1,0 +1,18 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "primary",
+      "eventName": "Create",
+      "className": "primary",
+      "icon": "yo-icon-xinjian",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "SetAllAsRead",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

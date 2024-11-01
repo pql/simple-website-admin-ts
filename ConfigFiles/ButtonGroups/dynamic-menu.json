@@ -1,0 +1,32 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "primary",
+      "eventName": "Create",
+      "className": "primary",
+      "icon": "yo-icon-xinjian",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Create",
+      "acl": "Pages.Administration.Users.Create",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 2,
+      "type": "",
+      "className": "info",
+      "eventName": "Reset",
+      "icon": "yo-icon-zhongzhi",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Reset",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

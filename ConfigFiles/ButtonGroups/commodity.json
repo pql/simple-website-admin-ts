@@ -1,0 +1,46 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "",
+      "className": "info",
+      "eventName": "Import",
+      "icon": "yo-icon-daoru2-copy",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Import",
+      "acl": "Pages.UserExtension.ImportExcel",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 2,
+      "type": "",
+      "className": "info",
+      "eventName": "DownloadExcelTemplate",
+      "icon": "yo-icon-daochu1",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.ExportUserDownloadConfig",
+      "acl": "Pages.UserExtension.ExportToExcel",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 3,
+      "type": "",
+      "eventName": "BulkDelete",
+      "className": "error",
+      "icon": "yo-icon-shanchu3",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Delete",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "listViewName": "roles",
+  "ifShowPersonalization": true,
+  "rowSelection": "checkbox",
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "no",
+      "field": null,
+      "title": "NO",
+      "width": 60,
+      "fixed": "left",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColor": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "displayName",
+      "title": "RoleName",
+      "width": null,
+      "fixed": null,
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 2,
+      "type": "datetime",
+      "field": "creationTime",
+      "title": "CreationTime",
+      "width": 200,
+      "fixed": null,
+      "Sortable": true,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": "YYYY-MM-DD HH:mm:ss",
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 3,
+      "type": "action",
+      "field": null,
+      "title": "Actions",
+      "width": 160,
+      "fixed": "right",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": 2,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null,
+      "actions": [
+        {
+          "name": "Edit",
+          "type": "button",
+          "label": "Edit",
+          "icon": "",
+          "acl": "Pages.Administration.Roles.Create",
+          "color": ""
+        },
+        {
+          "name": "Delete",
+          "type": "button",
+          "label": "Delete",
+          "icon": "",
+          "acl": "Pages.Administration.Roles.Delete",
+          "color": "#F2416C"
+        }
+      ]
+    }
+  ]
+}

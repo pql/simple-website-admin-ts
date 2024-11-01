@@ -1,0 +1,89 @@
+@import './pagination.less';
+@import './input.less';
+@import './btn.less';
+@import './popconfirm.less';
+@import './custom-table.less';
+
+.ant-image-preview-root {
+  img {
+    display: unset;
+  }
+}
+
+.ant-back-top {
+  right: 20px;
+  bottom: 20px;
+}
+
+.collapse-container__body {
+  > .ant-descriptions {
+    margin-left: 6px;
+  }
+}
+
+.ant-image-preview-operations {
+  background-color: rgb(0 0 0 / 30%);
+}
+
+.ant-popover {
+  &-content {
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  }
+}
+
+// =================================
+// ==============modal message======
+// =================================
+.modal-icon-warning {
+  color: @warning-color !important;
+}
+
+.modal-icon-success {
+  color: @success-color !important;
+}
+
+.modal-icon-error {
+  color: @error-color !important;
+}
+
+.modal-icon-info {
+  color: @primary-color !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner::after,
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner::after {
+  border-top: 0 !important;
+  border-left: 0 !important;
+}
+
+.ant-form-item-control-input-content {
+  > div {
+    > div {
+      max-width: 100%;
+    }
+  }
+}
+
+/* 选中背景颜色 */
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: @menu-item-active-background-color;
+}
+
+/* 鼠标悬停时的背景颜色 */
+.ant-select-item-option:hover:not(.ant-select-item-option-disabled) {
+  background-color: @menu-item-active-background-color;
+}
+
+/* tab切换 */
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: @primary-color;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+  color: @primary-color;
+}
+
+/* 表格 */
+// .ant-table-wrapper .ant-table .ant-table-header{
+//   border-radius: 0 !important;
+// }

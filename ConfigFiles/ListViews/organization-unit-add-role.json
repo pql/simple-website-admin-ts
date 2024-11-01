@@ -1,0 +1,43 @@
+{
+  "listViewName": "organization-unit-add-role",
+  "ifShowPersonalization": false,
+  "rowSelection": "checkbox",
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "no",
+      "field": null,
+      "title": "NO",
+      "width": 60,
+      "fixed": "left",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColor": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "name",
+      "title": "RoleName",
+      "width": null,
+      "fixed": "",
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    }
+  ]
+}

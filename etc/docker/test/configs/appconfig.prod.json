@@ -1,0 +1,7 @@
+{
+  "remoteServiceBaseUrl": "http://waveapi.test.firebytes.com.sg",
+  "authorityServiceBaseUrl": "http://waveauth.test.firebytes.com.sg",
+  "appBaseUrl": "http://wave.test.firebytes.com.sg",
+  "uploadApiUrl": "/api/File/Upload",
+  "oidcClientId": "Unified_Vue"
+}

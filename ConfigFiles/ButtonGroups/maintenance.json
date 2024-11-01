@@ -1,0 +1,18 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "",
+      "eventName": "ClearAll",
+      "className": "error",
+      "icon": "yo-icon-shanchu3",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "ClearAll",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

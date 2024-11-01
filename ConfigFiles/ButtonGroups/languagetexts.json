@@ -1,0 +1,18 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "",
+      "eventName": "Back",
+      "className": "info",
+      "icon": "yo-icon-fanhui1",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "BackLanguageList",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

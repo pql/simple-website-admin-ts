@@ -1,0 +1,64 @@
+/* 动画 */
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+}
+
+.message-panel-wrapper {
+  // position: absolute;
+  // z-index: 10;
+  // top: 50px;
+  // bottom: 0;
+  // width: 252px;
+  // padding: 10px;
+
+  :deep(.ant-card) {
+    background-color: transparent;
+  }
+}
+
+.message-card {
+  cursor: auto;
+}
+
+.statusIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: solid 1px @border-color-base;
+  border-radius: 4px;
+}
+
+.info div {
+  line-height: 28px;
+}
+
+.deleteIcon,
+.clipboardIcon,
+.stickiesIcon,
+.eyeIcon {
+  cursor: pointer;
+
+  &:hover {
+    color: @primary-color !important;
+  }
+}
+
+html[data-theme='dark'] {
+  .message-panel-wrapper {
+    background: linear-gradient(to right, #000000de, 80%, transparent);
+  }
+}
+
+html[data-theme='light'] {
+  .message-panel-wrapper {
+    background: linear-gradient(to right, #ffffffde, 80%, transparent);
+  }
+}

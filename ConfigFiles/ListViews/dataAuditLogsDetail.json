@@ -1,0 +1,61 @@
+{
+  "listViewName": "dataAuditLogsDetail",
+  "ifShowPersonalization": false,
+  "rowSelection": null,
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "",
+      "field": "propertyName",
+      "title": "PropertyName",
+      "width": 200,
+      "fixed": null,
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "originalValue",
+      "title": "OriginalValue",
+      "width": 200,
+      "fixed": null,
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 2,
+      "type": "",
+      "field": "newValue",
+      "title": "NewValue",
+      "width": 200,
+      "fixed": null,
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    }
+  ]
+}

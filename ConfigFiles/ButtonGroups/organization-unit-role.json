@@ -1,0 +1,32 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "primary",
+      "eventName": "Create",
+      "className": "primary",
+      "icon": "yo-icon-xinjian",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Create",
+      "acl": "Pages.Administration.OrganizationUnits.ManageUsers",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 2,
+      "type": "",
+      "eventName": "BulkDelete",
+      "className": "error",
+      "icon": "yo-icon-shanchu3",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Delete",
+      "acl": "Pages.Administration.OrganizationUnits.ManageUsers",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

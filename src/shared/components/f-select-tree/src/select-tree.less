@@ -1,0 +1,46 @@
+.select-tree {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.in-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:deep(.ant-tree .ant-tree-node-content-wrapper) {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  // color: #333;
+
+  .ant-tree-iconEle,
+  .ant-tree-title {
+    height: 28px;
+    line-height: 28px;
+  }
+
+  .ant-tree-title>div,
+  .ant-tree-title>span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+  }
+}
+
+html[data-theme='dark'] {
+  :deep(.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected) {
+    background: #232325
+  }
+}

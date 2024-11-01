@@ -1,0 +1,23 @@
+{
+  "pageFilterName": "template",
+  "pageFilterElements": [
+    {
+      "sortNum": 0, // 排序
+      "field": "org", //过滤字段
+      "filterWidth": 6, // 默认宽度 , 一行24
+      "queryType": "StartsWith", // 操作条件 Equal/NotEqual/Greater/GreaterEqual/Less/LessEqual/StartsWith/EndsWith/In/NotIn/Contains/Between/BetweenEqualStart/BetweenEqualEnd/BetweenEqualStartAndEnd
+      "filterTitle": "Organization", //显示名称，多语言key
+      "componentName": "input", //前端组件
+      "skipValueIsNull": true, // true:值为空则跳过筛选 false:值为空不跳过筛选
+      "args": {
+        // 前端组件参数
+        "placeholder": "UserName"
+      },
+      "valueChange": [], // 值发生改变通知的page-filter组件名称集合
+      "isAdvanced": false, //高级过滤
+      "ifShow": true
+    }
+  ],
+  "layout": null, // "horizontal" | "vertical" // 布局方式
+  "labelAlign": "rigth" //label 标签的文本对齐方式 'left' | 'right'
+}

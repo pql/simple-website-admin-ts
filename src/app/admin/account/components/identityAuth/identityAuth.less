@@ -1,0 +1,59 @@
+.step-btn {
+  width: 100%;
+  display: flex;
+  .ant-radio-button-wrapper {
+    height: 70px;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .btn-label-desc {
+      line-height: 20px;
+    }
+  }
+}
+.title-h3 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.disCenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-text {
+  height: 200px;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  line-height: 3.6rem;
+  margin-bottom: 20px;
+}
+html[data-theme='dark'] {
+  .step-btn {
+    .ant-radio-button-wrapper-checked {
+      background-color: #141b2c;
+      border-color: rgba(50, 109, 220, 0.8);
+      color: rgba(50, 109, 220, 0.8);
+      .btn-label-desc {
+        color: #326ddc;
+      }
+    }
+  }
+}
+html[data-theme='light'] {
+  .step-btn {
+    .ant-radio-button-wrapper-checked {
+      background-color: #f0f8ff;
+      border-color: rgba(55, 125, 255, 0.8);
+      color: rgba(55, 125, 255, 0.8);
+      .btn-label-desc {
+        color: #377dff;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "remoteServiceBaseUrl": "http://waveapi.dev.firebytes.com.sg",
+  "authorityServiceBaseUrl": "http://waveauth.dev.firebytes.com.sg",
+  "appBaseUrl": "http://wave.dev.firebytes.com.sg",
+  "uploadApiUrl": "/api/File/Upload",
+  "oidcClientId": "Unified_Vue",
+  "avueUrl": "http://avue.dev.firebytes.com.sg",
+  "avueOidcClientId": "Unified_Avue",
+  "cardLabelBaseUrl":"http://wavelabel.dev.firebytes.com.sg"
+}

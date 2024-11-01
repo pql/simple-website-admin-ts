@@ -1,0 +1,50 @@
+{
+  "pageFilterName": "dataautolog",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "UserName",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "UserName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "DateRange",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-range-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": ["StartTime", "EndDateTime"]
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 2,
+      "field": "Object",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "object-select",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Object"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

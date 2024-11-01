@@ -1,0 +1,88 @@
+.floor-select {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 20;
+  flex-direction: column;
+
+  :deep(.ant-select:not(.ant-select-customize-input) .ant-select-selector) {
+    background-color: transparent;
+  }
+}
+
+// .threeD-warp {
+//   position: absolute;
+//   top: 40px;
+//   right: 20px;
+//   z-index: 20;
+// }
+
+html[data-theme='light'] {
+  .floor-select {
+    color: #424242;
+
+    :deep(.ant-select .ant-select-selector) {
+      border-color: 1px solid #424242 !important;
+    }
+
+    :deep(.ant-select-single .ant-select-selector, .ant-select .ant-select-arrow) {
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    :deep(.ant-select .ant-select-selector:hover) {
+      border-color: #5990e8;
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  // .floor-plan-layout {
+  //   .contentSider {
+  //     background-color: @app-content-background !important;
+  //   }
+  // }
+
+  // .rightSider {
+  //   background-color: @app-content-background !important;
+  // }
+}
+
+.floor-plan-layout {
+  :deep(.floor-plan .myToolbar) {
+    right: 30rem;
+    top: 7rem;
+  }
+
+  :deep(.resize-layout-container) {
+    position: static !important;
+  }
+
+  :deep(.resize-layout-content) {
+    position: static !important;
+    margin: 0 !important;
+  }
+
+  .sidebar-fade-enter-active,
+  .sidebar-fade-leave-active {
+    transition: opacity 0.8s;
+  }
+
+  .sidebar-fade-enter,
+  .sidebar-fade-leave-to {
+    opacity: 0;
+  }
+
+  .right-sider {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rightSider {
+    width: 30rem;
+    overflow: hidden;
+  }
+}
+
+.divider {
+  border-color: @border-color-base;
+}

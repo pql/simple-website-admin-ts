@@ -1,0 +1,39 @@
+.panel-tree-wrapper {
+  // position: absolute;
+  // z-index: 10;
+  // top: 50px;
+  // bottom: 0;
+  // width: 252px;
+  // padding: 10px;
+
+  :deep(.ant-tree) {
+    height: calc(100vh - 200px);
+    overflow: auto;
+  }
+}
+
+// html[data-theme='dark'] {
+//   .panel-tree-wrapper {
+//     background: linear-gradient(to right, #000000de, 80%, transparent);
+//   }
+// }
+
+// html[data-theme='light'] {
+//   .panel-tree-wrapper {
+//     background: linear-gradient(to right, #ffffffde, 80%, transparent);
+
+//     :deep(.ant-tree) {
+//       background: none;
+//     }
+//   }
+// }
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+}

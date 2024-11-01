@@ -1,0 +1,269 @@
+@import '../../../../node_modules/@xeokit/xeokit-bim-viewer/dist/xeokit-bim-viewer.css';
+@import '../../../../node_modules/tippy.js/dist/tippy.css';
+
+.xeokit-context-menu {
+  border: 0 solid black !important;
+}
+
+.floor-plan {
+  overflow: hidden;
+
+  // .xeokit-classesTab,
+  // .xeokit-storeysTab,
+  // .xeokit-modelsTab {
+  //   display: none;
+  // }
+  .myViewer_gp {
+    width: calc(100% - 330px);
+    float: right;
+  }
+
+  .myExplorer {
+    z-index: 10;
+    width: 330px;
+    height: calc(100vh - 200px);
+    padding: 0;
+    padding-left: 15px;
+    float: left;
+    overflow: auto;
+    border-right: 2px solid #212529;
+    background: #03103f;
+    color: #fff;
+    user-select: none;
+  }
+
+  .myInspector {
+    display: none;
+  }
+
+  .myToolbar {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    height: 60px;
+  }
+
+  .myViewer {
+    height: 100%;
+  }
+
+  .myCanvas {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    background-image: linear-gradient(lightblue, white);
+  }
+
+  #myNavCubeCanvas {
+    position: absolute;
+    z-index: 200000;
+    right: 10px;
+    bottom: 50px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .xeokit-camera-pivot-marker {
+    visibility: hidden;
+    position: absolute;
+    z-index: 10000;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ebebeb;
+    border-radius: 15px;
+    background: black;
+    box-shadow: 5px 5px 15px 1px #000;
+    color: #fff;
+    pointer-events: none;
+  }
+
+  .annotation-marker {
+    visibility: hidden;
+    position: absolute;
+    z-index: 0;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background: black;
+    box-shadow: 5px 5px 15px 1px #000;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .annotation-label {
+    position: absolute;
+    z-index: 90000;
+    max-width: 250px;
+    min-height: 50px;
+    padding: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: #fff solid 2px;
+    border-radius: 3px;
+    border-radius: 3px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 5px 5px 15px 1px #000;
+    color: #000;
+    pointer-events: none;
+  }
+
+  .annotation-label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: -12px;
+    width: 0;
+    margin-top: -11px;
+    border-width: 8px 12px 8px 0;
+    border-style: solid;
+    border-color: transparent white;
+  }
+
+  .annotation-label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: -15px;
+    width: 0;
+    margin-top: -12px;
+    border-width: 9px 13px 9px 0;
+    border-style: solid;
+    border-color: transparent #fff;
+  }
+
+  .annotation-title {
+    position: fixed;
+    margin-top: 27px;
+    margin-bottom: 8px;
+    padding: 0 0.2rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: #000;
+    // font: normal 20px arial, serif;
+    // font: bold 0.5rem arial, serif !important;
+    // font: normal 0.5rem arial, serif !important;
+    font:
+      'message-box arial' m arial,
+      serif !important;
+  }
+
+  .annotation-title-blod {
+    font:
+      bold 0.5rem arial,
+      serif !important;
+  }
+
+  .annotation-desc {
+    font:
+      normal 14px arial,
+      serif;
+  }
+}
+
+.xeokit-tree-panel ul li {
+  width: auto !important;
+}
+
+.xeokit-tree-panel ul li input {
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+.save_degree_button {
+  position: absolute;
+  z-index: 9;
+  right: 66px;
+  bottom: 73px;
+}
+
+.context-menu {
+  position: absolute;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 2px black;
+  list-style: none;
+}
+
+.context-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.context-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.context-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.xeokit-ortho {
+  display: none;
+}
+
+.fa-crop::before {
+  content: '' !important;
+}
+
+.xeokit-btn.active {
+  background-color: #fff;
+}
+
+.context-menu {
+  color: #333;
+}
+
+.xeokit-btn.active:hover {
+  width: 50px;
+  height: 44px;
+  background-color: rgb(255 255 255 / 20%);
+  background-image: url('@/assets/images/control-panel/3d.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.fa-crop {
+  width: 50px;
+  height: 44px;
+  background-image: url('@/assets/images/control-panel/crop.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.fa-cube::before {
+  // content: "/f125" !important;
+
+  content: '' !important;
+}
+
+.fa-cube {
+  width: 50px;
+  height: 44px;
+  background-image: url('@/assets/images/control-panel/3d.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.save_degree_button {
+  position: absolute;
+  bottom: 13%;
+}

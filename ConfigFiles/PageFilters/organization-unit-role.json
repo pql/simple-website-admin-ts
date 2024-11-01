@@ -1,0 +1,20 @@
+{
+  "pageFilterName": "organization-unit-role",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "RoleName",
+      "filterWidth": 8,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "RoleName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

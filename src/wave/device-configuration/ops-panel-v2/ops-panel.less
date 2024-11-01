@@ -1,0 +1,22 @@
+.fullscreen {
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+
+  :deep(.left-sider-wrapper) {
+    z-index: 1001 !important;
+  }
+}
+
+.ops-panel {
+  background-color: #fff !important;
+}
+
+html[data-theme='dark'] {
+  .ops-panel {
+    background-color: @app-content-background !important;
+  }
+}

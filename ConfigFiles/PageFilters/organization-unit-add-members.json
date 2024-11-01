@@ -1,0 +1,20 @@
+{
+  "pageFilterName": "organization-unit-add-members",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "UserName",
+      "filterWidth": 24,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "UserName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

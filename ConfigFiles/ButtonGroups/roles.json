@@ -1,0 +1,46 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "primary",
+      "className": "primary",
+      "eventName": "Create",
+      "icon": "yo-icon-xinjian",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Create",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 2,
+      "type": "",
+      "className": "info",
+      "eventName": "BulkEdit",
+      "icon": "yo-icon-bianji",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Edit",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 3,
+      "type": "",
+      "eventName": "BulkDelete",
+      "className": "error",
+      "icon": "yo-icon-shanchu3",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Personalized.Delete",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}

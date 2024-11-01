@@ -1,0 +1,25 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://waveng.dev.firebytes.com.sg",
+    "name": "Unified",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "http://waveauth.dev.firebytes.com.sg/",
+    "redirectUri": "http://waveng.dev.firebytes.com.sg",
+    "clientId": "Unified_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone Unified"
+  },
+  "apis": {
+    "default": {
+      "url": "http://waveapi.dev.firebytes.com.sg",
+      "rootNamespace": "Unified"
+    },
+    "AbpAccountPublic": {
+      "url": "http://waveauth.dev.firebytes.com.sg",
+      "rootNamespace": "AbpAccountPublic"
+    }
+  }
+}

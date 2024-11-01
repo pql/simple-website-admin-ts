@@ -1,0 +1,15 @@
+.dynamic-table {
+  padding: 0;
+
+  :deep(.toolbar-area) {
+    margin-bottom: 10px;
+  }
+}
+
+html[data-theme='dark'] {
+  :deep(.resize-layout-container) {
+    :deep(.dynamic-table-wrapper .dynamic-table-layout) {
+      background-color: transparent !important;
+    }
+  }
+}

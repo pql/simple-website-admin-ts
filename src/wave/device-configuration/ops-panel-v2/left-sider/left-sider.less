@@ -1,0 +1,62 @@
+.left-sider-wrapper {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  width: 252px;
+  height: 100vh;
+  padding: 10px;
+}
+
+html[data-theme='dark'] {
+  .left-sider-wrapper {
+    background: linear-gradient(to right, #000000de, 80%, transparent);
+  }
+}
+
+html[data-theme='light'] {
+  .left-sider-wrapper {
+    background: linear-gradient(to right, #ffffffde, 80%, transparent);
+
+    :deep(.ant-tree) {
+      background: none;
+    }
+  }
+}
+
+.unfold-btn {
+  position: absolute;
+  z-index: 12;
+  top: 35px;
+  bottom: 0;
+  left: -15px;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-50%);
+  transition-duration: 0.3s;
+  border: solid 1px @border-color-base;
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px @border-color-base;
+  text-align: center;
+  place-content: center center;
+
+  &:hover {
+    left: 2px !important;
+    transition-duration: 0.3s;
+    border: solid 2px @border-color-base;
+  }
+}
+
+.vectorIcon:hover {
+  color: @primary-color !important;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+}

@@ -1,0 +1,111 @@
+//=================================
+@media only screen and (min-width: 1920px) {
+  .annotation-marker1 {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    font-size: 20px;
+  }
+}
+
+.annotation-marker {
+  display: flex;
+  position: absolute;
+  z-index: 1 !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.annotation-marker1 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 1px #000;
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.annotation-label {
+  position: absolute;
+  z-index: 1054;
+  max-width: 250px;
+  min-height: 50px;
+  padding: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border: #fff solid 2px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 5px 5px 15px 1px #000;
+  color: #000;
+}
+
+.annotation-label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: -12px;
+  width: 0;
+  margin-top: -11px;
+  border-width: 8px 12px 8px 0;
+  border-style: solid;
+  border-color: transparent white;
+}
+
+.annotation-label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 20px;
+  left: -15px;
+  width: 0;
+  margin-top: -12px;
+  border-width: 9px 13px 9px 0;
+  border-style: solid;
+  border-color: transparent #fff;
+}
+
+.annotation-title {
+  position: fixed;
+  margin-top: 27px;
+  margin-bottom: 8px;
+  padding: 0 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  color: #000;
+  font:
+    'message-box arial' m arial,
+    serif !important;
+}
+
+.annotation-title-blod {
+  font:
+    bold 0.5rem arial,
+    serif !important;
+}
+
+.annotation-desc {
+  font:
+    normal 14px arial,
+    serif;
+}
+
+.xeokit-reset,
+.xeokit-firstPerson,
+.xeokit-showSpaces,
+.xeokit-hide,
+.xeokit-select,
+.xeokit-section,
+.xeokit-marquee,
+.xeokit-measure-distance,
+.xeokit-measure-angle,
+.xeokit-camera-pivot-marker {
+  display: none;
+}

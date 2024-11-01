@@ -1,0 +1,81 @@
+.in-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.panel_right {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  :deep(.ant-tabs) {
+    width: 100%;
+
+    //解决模型标点偏移问题
+    .ant-tabs-content {
+      position: static !important;
+    }
+  }
+}
+
+.vben-layout-content {
+  position: static !important;
+}
+
+.floor-plan-layouts {
+  :deep(.resize-layout-container) {
+    position: static !important;
+  }
+
+  :deep(.resize-layout-content) {
+    position: static !important;
+    margin: 0 !important;
+  }
+
+  :deep(.resize-layout-container .left-sider) {
+    margin-right: 20px;
+  }
+}
+
+.control-panel {
+  height: 100%;
+
+  // 左侧树容器
+  .tree-sider-container {
+    width: 100%;
+    min-width: 300px;
+    padding: 16px;
+  }
+
+  // 右侧tab导航条
+  .content-nav {
+    :deep(.ant-tabs-tabpane) {
+      width: 100%;
+      height: calc(100vh - 168px);
+      min-height: calc(100vh - 168px);
+      max-height: calc(100vh - 168px);
+    }
+  }
+
+  ant-tabs-tabpane .in-middle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+.fullscreen {
+  position: fixed;
+  z-index: 999;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+}

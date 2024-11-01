@@ -1,0 +1,50 @@
+{
+  "pageFilterName": "notifications",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "state",
+      "filterWidth": 8,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "notification-select",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "NotificationStates"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "StartTime",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-date-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "StartTime"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 2,
+      "field": "EndTime",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-date-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "EndTime"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

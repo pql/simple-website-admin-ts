@@ -1,0 +1,45 @@
+.ant-checkbox-group {
+  width: 100%;
+}
+
+.ant-upload-select-picture-card i {
+  color: #999;
+  font-size: 32px;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.ant-col-12 {
+  padding: 0 20px;
+}
+
+.ant-col-24 {
+  padding: 0 20px;
+}
+
+:deep(.ant-checkbox-wrapper) {
+  max-width: 100%;
+
+  span {
+    min-width: 16px;
+    overflow: hidden; //设置了这个属性，text-overflow属性才会生效
+    text-overflow: ellipsis; //超出范围的文本内容用省略号显示。
+    white-space: nowrap; //禁止换行
+  }
+}
+
+:deep(.ant-badge-count) {
+  position: relative;
+  top: -0.01em;
+}
+
+:deep(.ant-badge .ant-scroll-number .ant-scroll-number-only > p.ant-scroll-number-only-unit) {
+  width: 20px;
+}
+
+:deep(.ant-tabs-content) {
+  padding: 20px;
+}

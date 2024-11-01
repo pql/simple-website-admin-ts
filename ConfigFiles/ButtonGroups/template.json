@@ -1,0 +1,18 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1, //排序
+      "type": "default", //按钮类型 primary | ghost | dashed | link | text | default
+      "eventName": "add", // 事件类型，内置 add,update,delete,import,export
+      "className": "primary", // 按钮主题类型, primary | info | success | warn | error | default
+      "icon": "yo-icon-tianjia", // 图标 iconfont symbol
+      "shape": "default", //设置按钮形状default | circle | round
+      "size": "middle", // 设置按钮大小 large | middle | small
+      "width": 80, // 设置按钮宽度 px
+      "title": "Add", // 设置按钮名称 多语言key
+      "acl": "", //设置按钮权限
+      "position": "left", //设置按钮靠左靠右 right | left
+      "disable": false //设置是否禁用true:禁用 | false:不禁用
+    }
+  ]
+}

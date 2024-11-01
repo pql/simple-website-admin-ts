@@ -1,0 +1,406 @@
+[
+  {
+    // 工作台
+    "title": "Dashboard",
+    "icon": "#yo-icon-gongzuotai2",
+    "orderNo": 1,
+    "hideMenu": false,
+    "path": "/src/app/main/dashboard/dashboard.vue"
+  },
+  {
+    //  通知
+    "title": "Notification",
+    "icon": "#yo-icon-tongzhi5",
+    "hideMenu": false,
+    "orderNo": 2,
+    "path": "/src/app/admin/notifications/notifications.vue"
+  },
+  {
+    // SAAS
+    "title": "Saas",
+    "name": "saas",
+    "icon": "#yo-icon-navicon-zhgl",
+    "orderNo": 3,
+    "hideMenu": false,
+    "permission": "Pages.Saas",
+    "Children": [
+      // 租户管理
+      {
+        "permission": "Pages.Tenants.Query",
+        "title": "TenantManagement",
+        "orderNo": 1,
+        "hideMenu": false,
+        "path": "/src/app/admin/tenants/tenants.vue"
+      },
+
+      // 版本管理
+      {
+        "permission": "Pages.Editions.Query",
+        "title": "VersionManagement",
+        "orderNo": 3,
+        "hideMenu": false,
+        "path": "/src/app/admin/editions/editions.vue"
+      }
+    ]
+  },
+  {
+    // 系统权限
+    "title": "SystemPermissions",
+    "icon": "#yo-icon-icon--quanxian",
+    "orderNo": 4,
+    "name": "admin",
+    "hideMenu": false,
+    "permission": "Pages.Administration",
+    "Children": [
+      // 组织单元
+      {
+        "permission": "Pages.Administration.OrganizationUnits.Query",
+        "title": "OrganizationUnits",
+        "orderNo": 1,
+        "hideMenu": false,
+        "path": "/src/app/admin/organization-units/organization-units.vue"
+      },
+      // 角色
+      {
+        "permission": "Pages.Administration.Roles.Query",
+        "title": "Role",
+        "orderNo": 3,
+        "hideMenu": false,
+        "path": "/src/app/admin/roles/roles.vue"
+      },
+      // 用户
+      {
+        "permission": "Pages.Administration.Users.Query",
+        "title": "Users",
+        "orderNo": 5,
+        "hideMenu": false,
+        "path": "/src/app/admin/users/users.vue"
+      }
+    ]
+  },
+  {
+    // 系统管理
+    "title": "SystemAdministration",
+    "icon": "#yo-icon--xitongguanli",
+    "orderNo": 5,
+    "name": "system",
+    "hideMenu": false,
+    "permission": "Pages.SystemManager",
+    "Children": [
+      // 语言管理-语种列表
+      {
+        "permission": "Pages.Administration.Languages.Query",
+        "title": "Languages",
+        "orderNo": 1,
+        "hideMenu": false,
+        "path": "/src/app/admin/languages/languages.vue"
+      },
+      // 语言管理-语种文本修改
+      {
+        "permission": "Pages.Administration.Languages.ChangeTexts",
+        "title": "LanguageManagement",
+        "hideMenu": true,
+        "orderNo": 2,
+        "path": "/src/app/admin/language-texts/language-texts.vue"
+      },
+      // APK管理
+      {
+        "permission": "Pages.ApkManagement.Query",
+        "title": "ApkManagement",
+        "orderNo": 2,
+        "hideMenu": false,
+        "path": "/src/app/admin/apk-managements/apk-managements.vue"
+      },
+      // 审计日志
+      {
+        "permission": "Pages.Administration.AuditLogs",
+        "title": "AuditLogs",
+        "orderNo": 3,
+        "hideMenu": false,
+        "path": "/src/app/admin/audit-logs/audit-logs.vue"
+      },
+      {
+        // 数据审计日志
+        "permission": "Pages.Administration.AuditLogs",
+        "title": "DataAuditLogs",
+        "orderNo": 4,
+        "hideMenu": false,
+        "path": "/src/app/admin/data-audit-logs/data-audit-logs.vue"
+      },
+      // Hangfire
+      {
+        "permission": "Pages.Administration.HangfireDashboard",
+        "title": "HangfireDashboard",
+        "name": "HangfireDashboard",
+        "orderNo": 5,
+        "hideMenu": false,
+        "path": "http://ftpapi.dev.yo-icon--china.com",
+        "dynamicMenu": 4
+      },
+      // 维护与日志
+      {
+        "permission": "Pages.Administration.Host.Maintenance",
+        "title": "Maintenance",
+        "orderNo": 7,
+        "hideMenu": false,
+        "path": "/src/app/admin/maintenance/maintenance.vue"
+      },
+      // 设置-宿主
+      {
+        "permission": "Pages.Administration.Host.Settings",
+        "title": "Settings",
+        "hideMenu": false,
+        "orderNo": 8,
+        "path": "/src/app/admin/host-settings/host-settings.vue"
+      },
+      // 设置-租户
+      {
+        "permission": "Pages.Administration.Tenant.Settings",
+        "title": "Settings",
+        "hideMenu": false,
+        "orderNo": 8,
+        "path": "/src/app/admin/tenant-settings/tenant-settings.vue"
+      },
+      // 文件管理
+      {
+        "title": "FileManager",
+        "permission": "Pages.SysFile",
+        "hideMenu": false,
+        "orderNo": 9,
+        "path": "/src/app/admin/file-manager/file-manager.vue"
+      },
+      // 登录日志
+      {
+        "permission": "Pages.Administration.LoginLogs.Query",
+        "title": "LoginLogs",
+        "orderNo": 10,
+        "hideMenu": false,
+        "path": "/src/app/admin/user-logs/user-logs.vue"
+      },
+      // 在线用户
+      {
+        "permission": "Pages.Administration.Users.Online",
+        "title": "OnlineUser",
+        "orderNo": 11,
+        "hideMenu": false,
+        "path": "/src/app/admin/user-online/user-online.vue"
+      }
+    ]
+  },
+  {
+    // 演示功能-统计报表
+    "title": "Sample.StatisticalReports",
+    "icon": "#yo-icon-tongjitubiao",
+    "orderNo": 6,
+    "name": "report",
+    "hideMenu": false,
+    "permission": "Pages.DemoFunction",
+    "path": "/src/app/report",
+    "Children": [
+      {
+        "title": "Sample.Echarts",
+        "name": "echarts",
+        "orderNo": 1,
+        "hideMenu": false,
+        "path": "/src/app/report/echarts/index.vue"
+      }
+    ]
+  },
+  {
+    // 演示功能-组件演示
+    "title": "Sample.ComponentsAndFunctions",
+    "icon": "#yo-icon-gongzuotai2",
+    "orderNo": 7,
+    "name": "sample",
+    "hideMenu": false,
+    "permission": "Pages.DemoFunction",
+    "path": "/src/app/sample",
+    "Children": [
+      {
+        "title": "Sample.FunctionSample",
+        "name": "feat",
+        "hideMenu": false,
+        "path": "/src/app/sample/feat",
+        "Children": [
+          {
+            "title": "Sample.BouncedSample",
+            "name": "modal",
+            "hideMenu": false,
+            "path": "/src/app/sample/feat/modal/index.vue"
+          },
+          {
+            "title": "Sample.Clipboard",
+            "name": "clipboard",
+            "hideMenu": false,
+            "path": "/src/app/sample/feat/clipboard/index.vue"
+          },
+          {
+            "title": "Sample.FullScreen",
+            "name": "fullScreen",
+            "hideMenu": false,
+            "path": "/src/app/sample/feat/full-screen/index.vue"
+          }
+        ]
+      },
+      {
+        "title": "Sample.TableSample",
+        "name": "table",
+        "hideMenu": false,
+        "path": "/src/app/sample/table",
+        "Children": [
+          {
+            "title": "Sample.BasicTable",
+            "name": "basicTable",
+            "hideMenu": false,
+            "path": "/src/app/sample/table/basic-table/index.vue"
+          },
+          {
+            "title": "Sample.TreeTable",
+            "name": "treeTable",
+            "hideMenu": false,
+            "path": "/src/app/sample/table/tree-table/index.vue"
+          },
+          {
+            "title": "Sample.FixedTable",
+            "name": "fixedTable",
+            "hideMenu": false,
+            "path": "/src/app/sample/table/fixed-table/index.vue"
+          },
+          {
+            "title": "Sample.MultilevelHeaderTable",
+            "name": "multiHeaderTable",
+            "hideMenu": false,
+            "path": "/src/app/sample/table/multi-header-table/index.vue"
+          },
+          {
+            "title": "Sample.TotalEndTable",
+            "name": "summaryTable",
+            "hideMenu": false,
+            "path": "/src/app/sample/table/summary-table/index.vue"
+          }
+        ]
+      },
+      {
+        "title": "Sample.PrintSample",
+        "name": "pageToPrint",
+        "hideMenu": false,
+        "path": "/src/app/sample/print/page-to-print/index.vue"
+      },
+      {
+        "title": "Sample.CodeSample",
+        "name": "code",
+        "hideMenu": false,
+        "path": "/src/app/sample/code/barcode",
+        "Children": [
+          {
+            "title": "Sample.BarCode",
+            "name": "barcode",
+            "hideMenu": false,
+            "path": "/src/app/sample/code/barcode/index.vue"
+          },
+          {
+            "title": "Sample.QrCode",
+            "name": "qrcode",
+            "hideMenu": false,
+            "path": "/src/app/sample/code/qrcode/index.vue"
+          }
+        ]
+      },
+      {
+        "title": "Sample.FormSample",
+        "name": "form",
+        "hideMenu": false,
+        "path": "/src/app/sample/form/form.vue",
+        "Children": [
+          {
+            "title": "Sample.CheckSample",
+            "name": "ruleForm",
+            "hideMenu": false,
+            "path": "/src/app/sample/form/rule-form/index.vue"
+          }
+        ]
+      },
+      {
+        "title": "Sample.ElectronicSignature",
+        "name": "esign",
+        "hideMenu": false,
+        "path": "/src/app/sample/esign/index.vue"
+      },
+      {
+        "title": "Sample.ElectronicOfficialSeal",
+        "name": "signet",
+        "hideMenu": false,
+        "path": "/src/app/sample/signet/index.vue"
+      },
+      {
+        "title": "Sample.RealTimeData",
+        "name": "RealTimeData",
+        "hideMenu": false,
+        "path": "/src/app/sample/real-time-data/index.vue"
+      },
+      {
+        "title": "Sample.bigdata",
+        "name": "bigdata",
+        "hideMenu": false,
+        "path": "/src/app/sample/bigdata/index.vue"
+      },
+      {
+        "title": "Sample.ImportOrExport",
+        "name": "importorexport",
+        "hideMenu": false,
+        "path": "/src/app/sample/import-or-export-data/index.vue"
+      },
+      {
+        "title": "Sample.Schedule",
+        "name": "calendar",
+        "hideMenu": false,
+        "path": "/src/app/sample/calendar/index.vue"
+      },
+      {
+        "title": "Sample.MapSample",
+        "name": "map",
+        "hideMenu": false,
+        "path": "/src/app/sample/map",
+        "Children": [
+          {
+            "title": "Sample.Scott",
+            "name": "gaode",
+            "hideMenu": false,
+            "path": "/src/app/sample/map/gaode/index.vue"
+          },
+          {
+            "title": "Sample.Baidu",
+            "name": "baidu",
+            "hideMenu": false,
+            "path": "/src/app/sample/map/baidu/index.vue"
+          }
+        ]
+      },
+      {
+        "title": "Sample.ScrollComponent",
+        "name": "scroll",
+        "hideMenu": false,
+        "path": "/src/app/sample/scroll/index.vue"
+      },
+      {
+        "title": "Sample.LayoutComponent",
+        "name": "yLayoutDemo",
+        "hideMenu": false,
+        "path": "/src/app/sample/g-layout-demo/index.vue"
+      },
+      {
+        "title": "Sample.EnumComponent",
+        "name": "enums",
+        "hideMenu": false,
+        "path": "/src/app/sample/enums/index.vue"
+      }
+    ]
+  },
+  {
+    // 关于
+    "title": "About",
+    "icon": "#yo-icon-guanyu11",
+    "orderNo": 8,
+    "path": "/src/app/main/about/about.vue"
+  }
+]

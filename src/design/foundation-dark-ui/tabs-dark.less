@@ -1,0 +1,45 @@
+html[data-theme='dark'] {
+  .@{prefix-cls} {
+    .ant-tabs.ant-tabs-card {
+      .ant-tabs-nav {
+        .ant-tabs-tab {
+          margin-left: 6px !important;
+          border-radius: 4px 4px 0 0;
+          color: #666;
+          font-family: 'Microsoft YaHei';
+        }
+
+        .ant-tabs-tab-active {
+          border-bottom: 2px solid #d71e1a;
+          background: #352428;
+
+          span {
+            color: #d71e1a !important;
+          }
+
+          svg {
+            fill: #a83d3b;
+          }
+        }
+      }
+    }
+  }
+
+  .vben-multiple-tabs,
+  .vben-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav {
+    border-bottom: 1px solid #323233;
+    background: #21242a;
+  }
+
+  .vben-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav .ant-tabs-tab {
+    background: #2e3036;
+  }
+}
+
+[data-theme='dark']
+  .vben-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab:not(.ant-tabs-tab-active):hover {
+  color: #d71e1a;
+}

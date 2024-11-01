@@ -1,0 +1,89 @@
+{
+  "listViewName": "organization-unit-role",
+  "ifShowPersonalization": true,
+  "rowSelection": "checkbox",
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "no",
+      "field": null,
+      "title": "NO",
+      "width": 60,
+      "fixed": "left",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColor": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "displayName",
+      "title": "RoleName",
+      "width": 200,
+      "fixed": "",
+      "Sortable": true,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 2,
+      "type": "datetime",
+      "field": "addedTime",
+      "title": "CreationTime",
+      "width": null,
+      "fixed": "",
+      "Sortable": true,
+      "sorting": "",
+      "position": "",
+      "numberDigits": null,
+      "dateFormat": "YYYY-MM-DD HH:mm:ss",
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 3,
+      "type": "action",
+      "field": null,
+      "title": "Actions",
+      "width": 84,
+      "fixed": "right",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": 2,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null,
+      "actions": [
+        {
+          "name": "Delete",
+          "type": "button",
+          "label": "Delete",
+          "icon": "",
+          "acl": "Pages.Administration.OrganizationUnits.ManageUsers",
+          "color": "#F2416C"
+        }
+      ]
+    }
+  ]
+}

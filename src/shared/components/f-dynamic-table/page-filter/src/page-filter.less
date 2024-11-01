@@ -1,0 +1,46 @@
+@import '/@/design/foundation-dark-ui/search.less';
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.search-layout {
+  display: flex;
+  padding: 10px 16px;
+
+  .search-container {
+    flex: 1;
+  }
+
+  .search-aside {
+    // margin-left: 12px;
+    // padding-top: 5px;
+
+    .advanced-button {
+      margin-right: 16px;
+    }
+  }
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.rotate-yes {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: #acafb5;
+  font-size: 20px;
+
+  /* 平滑过渡效果 */
+}
+
+.rotate-no {
+  display: inline-block;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+  color: @primary-color;
+  font-size: 20px;
+
+  /* 平滑过渡效果 */
+}

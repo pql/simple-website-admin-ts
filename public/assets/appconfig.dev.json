@@ -1,0 +1,10 @@
+{
+  "remoteServiceBaseUrl": "http://192.168.1.4:4433",
+  "authorityServiceBaseUrl": "http://192.168.1.4:4436",
+  "appBaseUrl": "http://localhost:4200",
+  "uploadApiUrl": "/api/file-management/file-descriptor/upload",
+  "oidcClientId":"Unified_Vue_Wuhan_DV",
+  "avueUrl":"http://localhost:4300",
+  "avueOidcClientId":"Unified_Avue",
+  "cardLabelBaseUrl": "http://localhost:44355"
+}

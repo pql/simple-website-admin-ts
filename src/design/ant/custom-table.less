@@ -1,0 +1,39 @@
+.customTable.ant-table-wrapper {
+  border: solid 1px @border-color-custom !important;
+  border-radius: 8px 8px 0 0 !important;
+
+  .ant-table.ant-table-bordered > .ant-table-container {
+    border: none !important;
+    background-color: @app-content-warp-background;
+
+    & > .ant-table-header {
+      border-radius: 8px 8px 0 0 !important;
+
+      & > table > thead > tr > th {
+        padding: 9px 8px;
+        font-weight: 700;
+      }
+    }
+
+    & > .ant-table-body {
+      // border-radius: 0 0 8px 8px;
+
+      > table > tbody > tr > td {
+        padding: 9px 8px;
+      }
+
+      .ant-table-body .ant-table-tbody .ant-table-placeholder > td {
+        // border-radius: 0 0 8px 8px !important;
+      }
+    }
+  }
+
+  .ant-pagination {
+    margin: 0;
+    padding: 12px 0;
+    padding-right: 10px;
+    border-top: solid 1px @border-color-custom;
+    // border-radius: 0 0 8px 8px;
+    background-color: @app-content-warp-background;
+  }
+}

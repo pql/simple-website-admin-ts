@@ -1,0 +1,88 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 1,
+      "type": "primary",
+      "className": "primary",
+      "eventName": "Upload",
+      "icon": "yo-icon-shangchuan",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "FileUpload",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 2,
+      "type": "",
+      "className": "info",
+      "eventName": "Create",
+      "icon": "yo-icon-tianjia",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "CreateDirectory",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 3,
+      "type": "",
+      "className": "info",
+      "eventName": "Refresh",
+      "icon": "yo-icon-31shuaxin",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Refresh",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 4,
+      "type": "",
+      "className": "info",
+      "eventName": "Back",
+      "icon": "yo-icon-fanhui1",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "Back",
+      "acl": "",
+      "position": "left",
+      "disable": false
+    },
+    {
+      "sortNum": 5,
+      "type": "",
+      "className": "default",
+      "eventName": "ChangeLayoutBlock",
+      "icon": "yo-icon-wenjian-pingpu",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "",
+      "acl": "",
+      "position": "right",
+      "disable": false
+    },
+    {
+      "sortNum": 6,
+      "type": "",
+      "className": "default",
+      "eventName": "ChangeLayoutList",
+      "icon": "yo-icon-wenjian-liebiao",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": null,
+      "acl": "",
+      "position": "right",
+      "disable": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "listViewName": "",
+  "ifShowPersonalization": true, //是否展示个性化
+  "rowSelection": "checkbox", //多选/单选，checkbox or radio
+  "ListViewColumns": [
+    { // 行号列
+      "ifShow": true, //是否展示 
+      "sortNum": 0, // 排序号
+      "type": "no", // 类型 no|string|datetime|yn|checkbox|action|link
+      "field": "", // 字段,支持嵌套 aa.bb 
+      "title": "No", // 列名
+      "width": 40, // 宽度
+      "fixed": "left", // 固定列 left或right,必须指定width
+      "Sortable": true, //是否展示排序 
+      "sorting": "", //默认排序 ""|asc|desc 
+      "position": "left", //内容对齐方式 left|right|center
+      "numberDigits": 2, // 列类型为number时保留小数位
+      "dateFormat": null, // 列类型为datetime类型格式化规则
+      "LinkType": "Inner", //  Inner|Outer
+      "LinkPath": "www.baidu.com?name={0}{1}", //链接
+      "LinkParam": "userName,userCode", //链接参数
+      "resizable": false, // 是否可拖动调整宽度
+    }
+      "listViewColumnColor": {
+      "color": "#ff056d",
+      "determineType": "==",
+      "value": "333"
+    }
+  },
+  { // 操作按钮列
+    "sortNum": 0, // 排序号
+    "ifShow": true,
+    "type": "action", // 类型 no|string|datetime|yn|checkbox|action|link
+    "field": null, // 字段,支持嵌套 aa.bb 
+    "title": "Actions", // 列名
+    "width": 200, // 宽度
+    "fixed": "right", // 固定列 left或right,必须指定width
+    "Sortable": false, //是否展示排序 
+    "sorting": "", //默认排序 ""|asc|desc 
+    "position": "left", //内容对齐方式 left|right|center
+    "numberDigits": 2, // 列类型为number时保留小数位
+    "dateFormat": null, // 列类型为datetime类型格式化规则
+    "LinkType": "",
+    "LinkPath": "",
+    "LinkParam": "",
+    "listViewColumnColors": null,
+    "actions": [
+      {
+        "name": "edit",
+        "type": "button",
+        "label": "common.edit",
+        "isShow": ""
+      },
+      {
+        "name": null,
+        "type": "select",
+        "label": "common.action",
+        "buttons": [
+          {
+            "name": "edit",
+            "type": "button",
+            "label": "common.edit",
+            "color?": "success",
+            "icon": "",
+            "acl": "user.edit"
+          },
+          {
+            "name": "delete",
+            "type": "button",
+            "label": "common.delete",
+            "icon": "",
+            "acl": "user.delete"
+          }
+        ]
+      }
+    ]
+  }
+]
+}

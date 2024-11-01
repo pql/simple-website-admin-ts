@@ -1,0 +1,20 @@
+{
+  "pageFilterName": "editions",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "EditionName",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "EditionName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

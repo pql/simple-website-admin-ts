@@ -1,0 +1,71 @@
+{
+  "listViewName": "common-lookup",
+  "ifShowPersonalization": false,
+  "rowSelection": null,
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "no",
+      "field": null,
+      "title": "NO",
+      "width": 60,
+      "fixed": "left",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColor": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "name",
+      "title": "Name",
+      "width": 200,
+      "fixed": "left",
+      "Sortable": true,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 8,
+      "type": "action",
+      "field": null,
+      "title": "Actions",
+      "width": 174,
+      "fixed": "right",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": 2,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null,
+      "actions": [
+        {
+          "name": "Select",
+          "type": "button",
+          "label": "Select",
+          "icon": "",
+          "acl": "",
+          "color": "#0960bd"
+        }
+      ]
+    }
+  ]
+}

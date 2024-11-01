@@ -1,0 +1,66 @@
+{
+  "pageFilterName": "user",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "UserName",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "UserName",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "UserName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "Permissions",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "Permissions",
+      "componentName": "permission-combox-new",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Permissions",
+        "multiple": true
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 2,
+      "field": "Role",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "Role",
+      "componentName": "role-combox-new",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Role"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 3,
+      "field": "CreationTime",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-range-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": ["CreationStartTime", "CreationEndTime"]
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

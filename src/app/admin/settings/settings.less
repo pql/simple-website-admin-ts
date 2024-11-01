@@ -1,0 +1,52 @@
+.card-div {
+  margin: 7px;
+
+  ::v-deep .ant-menu-light.ant-menu-root.ant-menu-inline {
+    border: none;
+  }
+  .ant-tabs-tabpane {
+    height: calc(100vh - 320px);
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+
+
+.a-col-left {
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+
+.space-between30 {
+  margin-top: 30px;
+}
+
+.spen-left {
+  margin-left: 5px;
+}
+
+.hrs {
+  width: 90%;
+  margin: 10px 0;
+  border-top: 1px solid @border-color-base;
+}
+
+.alert-danger {
+  position: relative;
+  border: 1px solid rgb(106 108 109 / 30%);
+  backdrop-filter: saturate(100%) blur(10px);
+}
+
+.alert {
+  --bs-alert-padding-x: 1.5rem;
+  --bs-alert-padding-y: 1.5rem;
+  --bs-alert-margin-bottom: 1rem;
+  --bs-alert-border-radius: 0.5rem;
+
+  margin-top: 20px;
+  margin-bottom: var(--bs-alert-margin-bottom);
+  padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+  border-radius: var(--bs-alert-border-radius);
+}

@@ -1,0 +1,56 @@
+@import '/@/design/foundation-dark-ui/table.less';
+
+.table-layout {
+  position: relative;
+
+  .bottom-toolbar-area {
+    position: absolute;
+    left: 0;
+    margin-top: -41px;
+    border-bottom: 1px solid #eaecef;
+  }
+}
+
+:deep(.ant-table) {
+  padding-bottom: 52px;
+}
+
+:deep(.ant-table-pagination.ant-pagination) {
+  position: absolute;
+  right: 4px;
+  bottom: 2px;
+}
+
+:deep(.ant-pagination) {
+  .ant-pagination-item-link,
+  li {
+    border: 0;
+    border-radius: 4px;
+
+    .ant-select-selector,
+    html[data-theme='light'] input {
+      border: 0;
+      border-radius: 2px;
+      background: #f6f8fb;
+    }
+  }
+}
+
+:deep(.ant-pagination-item-active) a {
+  border-radius: 4px;
+  background-color: @primary-color;
+  color: #fff;
+}
+
+.btn-guttar {
+  margin: 0 6px;
+}
+
+:deep(.ant-table-tbody > tr.ant-table-row-selected > td) {
+  border-color: #00000008 !important;
+}
+
+.ant-btn-text {
+  border-width: 0;
+  background: transparent;
+}

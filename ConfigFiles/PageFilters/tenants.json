@@ -1,0 +1,50 @@
+{
+  "pageFilterName": "tenants",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "TenantNameOrTenancyCode",
+      "filterWidth": 6,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "TenantNameOrTenancyCode"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "Edition",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "edition-select",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Edition"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 2,
+      "field": "OrderDate",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-range-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": ["CreationStartTime", "CreationEndTime"]
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

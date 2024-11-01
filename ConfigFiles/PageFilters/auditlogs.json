@@ -1,0 +1,125 @@
+{
+  "pageFilterName": "auditlogs",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "UserName",
+      "filterWidth": 8,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "UserName"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "ErrorState",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "error-state",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "ErrorState"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 2,
+      "field": "DateRange",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-range-picker",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": ["StartTime", "EndDateTime"]
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 3,
+      "field": "Service",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Service"
+      },
+      "valueChange": [],
+      "isAdvanced": true,
+      "ifShow": true
+    },
+    {
+      "sortNum": 4,
+      "field": "MinExecutionDuration",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "MinExecutionDuration"
+      },
+      "valueChange": [],
+      "isAdvanced": true,
+      "ifShow": true
+    },
+    {
+      "sortNum": 5,
+      "field": "MaxExecutionDuration",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "MaxExecutionDuration"
+      },
+      "valueChange": [],
+      "isAdvanced": true,
+      "ifShow": true
+    },
+    {
+      "sortNum": 6,
+      "field": "MethodName",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "MethodName"
+      },
+      "valueChange": [],
+      "isAdvanced": true,
+      "ifShow": true
+    },
+    {
+      "sortNum": 7,
+      "field": "Browser",
+      "filterWidth": 8,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "Browser"
+      },
+      "valueChange": [],
+      "isAdvanced": true,
+      "ifShow": true
+    }
+  ]
+}

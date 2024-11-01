@@ -1,0 +1,157 @@
+{
+  "listViewName": "user",
+  "ifShowPersonalization": true,
+  "rowSelection": null,
+  "ListViewColumns": [
+    {
+      "ifShow": true,
+      "sortNum": 0,
+      "type": "no",
+      "field": null,
+      "title": "NO",
+      "width": 60,
+      "fixed": "left",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColor": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 1,
+      "type": "",
+      "field": "name",
+      "title": "FileName",
+      "width": 200,
+      "fixed": "left",
+      "Sortable": true,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 2,
+      "type": "",
+      "field": "pixel",
+      "title": "Pixel",
+      "width": 200,
+      "fixed": null,
+      "Sortable": false,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 3,
+      "type": "",
+      "field": "lastModificationTime",
+      "title": "LastModificationTime",
+      "width": 200,
+      "fixed": null,
+      "Sortable": true,
+      "sorting": "",
+      "position": "left",
+      "numberDigits": null,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null
+    },
+    {
+      "ifShow": true,
+      "sortNum": 8,
+      "type": "action",
+      "field": null,
+      "title": "Actions",
+      "width": 174,
+      "fixed": "right",
+      "Sortable": false,
+      "sorting": "",
+      "position": "center",
+      "numberDigits": 2,
+      "dateFormat": null,
+      "LinkType": "",
+      "LinkPath": "",
+      "LinkParam": "",
+      "listViewColumnColors": null,
+      "actions": [
+        {
+          "name": "Action",
+          "type": "select",
+          "label": "Action",
+          "icon": "",
+          "acl": "",
+          "color": "#ff4d4f",
+          "buttons": [
+            {
+              "name": "Copy",
+              "type": "button",
+              "label": "Copy",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            },
+            {
+              "name": "CopyUrl",
+              "type": "button",
+              "label": "CopyUrl",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            },
+            {
+              "name": "CopyCode",
+              "type": "button",
+              "label": "CopyCode",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            },
+            {
+              "name": "ReName",
+              "type": "button",
+              "label": "ReName",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            },
+            {
+              "name": "Move",
+              "type": "button",
+              "label": "Move",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            },
+            {
+              "name": "DeleteSysFile",
+              "type": "button",
+              "label": "DeleteSysFile",
+              "icon": "",
+              "acl": "",
+              "color": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

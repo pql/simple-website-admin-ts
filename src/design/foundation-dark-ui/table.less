@@ -1,0 +1,28 @@
+html[data-theme='dark'] {
+  .table-layout .bottom-toolbar-area {
+    border-bottom: 1px solid #303030;
+  }
+
+  :deep(.ant-pagination-options-quick-jumper input) {
+    border: 1px solid #303030;
+    background: transparent !important;
+  }
+
+
+  .ant-btn-primary {
+    border-radius: 4px;
+    border-color: @custom-btn-primary-color;
+    background-color: @custom-btn-primary-color;
+
+    &:hover {
+      border-color: @custom-btn-primary-hover-color;
+      background-color: @custom-btn-primary-hover-color;
+      color: #fff;
+    }
+  }
+
+  .ant-dropdown-content .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+    background: #3e2d32;
+    color: @custom-btn-primary-color;
+  }
+}

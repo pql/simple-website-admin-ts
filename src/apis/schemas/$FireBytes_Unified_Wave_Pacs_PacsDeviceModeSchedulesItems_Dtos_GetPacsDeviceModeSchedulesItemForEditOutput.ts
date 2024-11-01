@@ -1,0 +1,12 @@
+/* generated using openapi-typescript-codegen -- do not edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+export const $FireBytes_Unified_Wave_Pacs_PacsDeviceModeSchedulesItems_Dtos_GetPacsDeviceModeSchedulesItemForEditOutput = {
+    properties: {
+        pacsDeviceModeSchedulesItem: {
+            type: 'FireBytes_Unified_Wave_Pacs_PacsDeviceModeSchedulesItems_Dtos_PacsDeviceModeSchedulesItemEditDto',
+            isRequired: true,
+        },
+    },
+} as const;

@@ -1,0 +1,105 @@
+.camera-viewer {
+  .ant-layout-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  // 左侧树容器
+  .tree-sider-container {
+    width: 100%;
+    min-width: 310px;
+    padding: 16px;
+  }
+
+  // 右侧tab导航条
+  .content-nav {
+    padding: 0 8px;
+
+    .ant-tabs-nav {
+      margin: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .in-middle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  /** 摄像头视图容器 */
+  .camera-viewer-container {
+    .camera-grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: calc(100vh - 80px - 16px - 62px - 6px);
+    }
+
+    .camera-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .camera-row-h-100 {
+      height: 100% !important;
+    }
+
+    .camera-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .camera-col-hide {
+      display: none;
+      width: 0%;
+      height: 0%;
+    }
+
+    .camera-col-w-100 {
+      width: 100% !important;
+    }
+
+    .camera-item {
+      overflow: hidden;
+      border: 1px solid @border-color-custom;
+      background: #000;
+    }
+  }
+}
+
+// 拖拽样式
+.button {
+  margin-top: 35px;
+}
+
+.flip-list-move {
+  transition: transform 0.5s;
+}
+
+.no-move {
+  transition: transform 0s;
+}
+
+.ghost {
+  opacity: 0.5;
+  background: #c8ebfb;
+}
+
+.list-group {
+  min-height: 20px;
+}
+
+.list-group-item {
+  cursor: move;
+}
+
+.list-group-item i {
+  cursor: pointer;
+}

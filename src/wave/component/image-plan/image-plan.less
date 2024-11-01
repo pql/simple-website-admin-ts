@@ -1,0 +1,49 @@
+html[data-theme='dark'] {
+  .canvas-box {
+    background-color: #17171a;
+  }
+}
+
+canvas {
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.canvas-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.context-menu {
+  position: absolute;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 2px black;
+  list-style: none;
+}
+
+.save_degree_button {
+  position: absolute;
+  z-index: 9;
+  right: 66px;
+  bottom: 130px;
+}
+
+.context-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.context-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.context-menu li:hover {
+  background-color: #f0f0f0;
+}

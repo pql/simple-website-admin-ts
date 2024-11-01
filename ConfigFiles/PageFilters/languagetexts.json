@@ -1,0 +1,84 @@
+{
+  "pageFilterName": "languagetexts",
+  "pageFilterElements": [
+    {
+      "sortNum": 0,
+      "field": "FilterText",
+      "filterWidth": 24,
+      "queryType": "Contains",
+      "filterTitle": "",
+      "componentName": "a-input",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "SearchWithThreeDot"
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "TargetValue",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "TargetValue",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "TargetValue",
+        "multiple": true
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "BaseLanguage",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "BaseLanguage",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "BaseLanguage",
+        "multiple": true
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "LanguageSource",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "languageSource",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "LanguageSource",
+        "multiple": true
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    },
+    {
+      "sortNum": 1,
+      "field": "TargetLanguage",
+      "filterWidth": 6,
+      "queryType": "Equal",
+      "filterTitle": "",
+      "componentName": "TargetLanguage",
+      "skipValueIsNull": true,
+      "args": {
+        "placeholder": "TargetLanguage",
+        "multiple": true
+      },
+      "valueChange": [],
+      "isAdvanced": false,
+      "ifShow": true
+    }
+  ]
+}

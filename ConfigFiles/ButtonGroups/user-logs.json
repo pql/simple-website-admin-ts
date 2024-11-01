@@ -1,0 +1,18 @@
+{
+  "buttonConfigs": [
+    {
+      "sortNum": 0,
+      "type": "primary",
+      "eventName": "LoginStatisticsAll",
+      "className": "primary",
+      "icon": "",
+      "shape": "default",
+      "size": "middle",
+      "width": null,
+      "title": "LoginStatistics",
+      "acl": "Pages.Administration.LoginLogs.LoginStatistics",
+      "position": "left",
+      "disable": false
+    }
+  ]
+}
